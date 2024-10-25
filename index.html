@@ -1,4 +1,4 @@
-<?php $BASE_URL = "http://172.27.1.2/";?>
+<?php $BASE_URL = "https://roohjahidhasan.github.io/freedomonline/";?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
