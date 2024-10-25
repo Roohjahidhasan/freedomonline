@@ -1,0 +1,292 @@
+
+@import url('custom.css');
+@import url('bootstrap.min.css');
+@import url('font-awesome.min.css');
+@import url('hover.css');
+@import url('animate.css');
+@import url('magnific-popup.css');
+@import url('owl.carousel.css');
+@import url('owl.transitions.css');
+@import url('settings.css');
+@import url('layers.css');
+@import url('navigation.css');
+
+
+/* ------------------------------------------------------------------------------- */
+/*  14. Responsive styles
+/* ------------------------------------------------------------------------------- */
+
+
+
+/* 14.1 Min width 768px */
+
+
+
+@media (min-width: 768px){
+
+
+
+  /* Header */
+
+
+
+  .navbar {
+    padding-top: 50px;
+  }
+
+  .brand{
+    margin:0;
+  }
+
+
+
+  /* Navigation */
+
+
+
+  .navbar-nav{
+    font-size:14px;
+  }
+
+  .navbar-nav > li{
+    border-bottom: 0;
+    margin-left: 25px;
+  }
+
+  .navbar-nav li a{
+    position: relative;
+    padding:0;
+    color:#fff;
+  }
+
+  .navbar-nav li a:hover,
+  .navbar-nav li a:focus,
+  .navbar-nav .active > a,
+  .navbar-nav .active > a:hover{
+    background-color: transparent;
+
+  }
+
+  .navbar-nav li a:hover,
+  .navbar-nav .active > a,
+  .navbar.affix .navbar-nav li > a:hover,
+  .navbar.affix .navbar-nav .active > a{
+    color: #67d5b5;
+  }
+
+  .navbar-nav li .submenu{
+    display: block;
+  }
+
+
+
+  /* Navbar Affix */
+
+
+
+  .navbar.affix{
+    padding-bottom: 20px;
+  }
+
+
+
+  /* Main */
+
+
+
+  .opener{
+    padding: 300px 0;
+  }
+
+
+
+  /* Portfolio */
+
+
+
+  .isotope .isotope-item{
+    width: 50%;
+  }
+
+  .isotope .isotope-item.w2{
+    width: 100%;
+  }
+
+  .isotope.col-3 .isotope-item{
+    width: 50%;
+  }
+
+
+
+  /* Footer */
+
+
+
+  .copy{
+    float: left;
+    margin-bottom: 0;
+  }
+
+
+  .footer-bottom .social{
+    float: right;
+    margin-left: 0;
+  }
+
+
+
+  /* Modals */
+
+
+
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+
+  .modal-dialog {
+    width: 550px;
+  }
+}
+
+
+
+/* 14.2 Min width 992px */
+
+
+
+@media (min-width: 992px){
+
+
+
+  /* Content styles */
+
+
+
+  .md-pull-right{
+    float: right;
+  }
+
+  .text-right-md{
+    text-align: right;
+  }
+
+
+
+  /* Backgrouns */
+
+
+
+  .bgc-light-md{
+    background-color: #f0f5f9;
+  }
+
+
+
+  /* About */
+
+
+
+  .col-about-right{
+    padding-left:30px;
+  }
+
+  .col-about-left{
+    padding-right: 30px;
+  }
+
+  .banner-section .btn{
+    margin-top:0;
+  }
+
+
+
+  /* Navigation */
+
+
+
+  .navbar-nav > li{
+    border-bottom: 0;
+    margin-left: 36px;
+  }
+
+  .navbar.affix .navbar-nav > li > a{
+    margin-bottom: 0;
+  }
+
+
+
+  /* Portfolio */
+
+
+
+  .isotope .isotope-item{
+    width: 33.333333%;
+  }
+
+  .isotope .isotope-item.w2{
+    width: 66.666666%;
+  }
+
+  .isotope.col-2 .isotope-item{
+    width: 50%;
+  }
+
+
+  /* Contact */
+
+
+
+  .col-contact{
+    border-left:1px solid #E1E1E1;
+  }
+}
+
+
+
+/* 14.3 Min width 1200px */
+
+
+
+
+@media (min-width: 1200px){
+
+
+
+  /* Portfolio */
+
+
+
+  .isotope .isotope-item{
+    width: 25%;
+  }
+
+  .isotope .isotope-item.w2{
+    width: 50%;
+  }
+
+  .isotope.col-3 .isotope-item{
+    width: 33.333333%;
+  }
+
+
+
+  /* About */
+
+
+
+  .col-about-right{
+    padding-left: 60px;
+  }
+
+  .col-about-left{
+    padding-right: 60px;
+  }
+
+  .feature-box-wrap{
+    margin-top: 50px;
+  }
+
+
