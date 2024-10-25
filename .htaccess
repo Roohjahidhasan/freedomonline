@@ -1,0 +1,25 @@
+RewriteEngine on
+
+
+Header set X-Frame-Options DENY
+
+RewriteRule ^home?$ index.php
+RewriteRule ^login?$ login.php
+RewriteRule ^logout?$ logout.php
+RewriteRule ^about-us?$ about.php
+RewriteRule ^contact?$ contact.php
+RewriteRule ^coverage-area?$ coverage-area.php
+RewriteRule ^bill-pay?$ bill-pay.php
+RewriteRule ^tv_server?$ tv_server.php
+
+
+
+
+
+
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
